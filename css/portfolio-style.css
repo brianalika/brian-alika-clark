@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.swiper-container {
+  position: center; 
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(100, 99, 99);
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: turquoise;
+}
+
+  @media only screen and (max-width: 520px) {
+      .swiper-container {
+        width: 300px;
+        height: 350px;
+      }
+    }  
