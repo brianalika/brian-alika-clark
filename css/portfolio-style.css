@@ -2,13 +2,23 @@
     box-sizing: border-box;
   }
   
+.py-5 {
+  background-color: rgb(245, 245, 245); 
+}
+
 .swiper-container {
-  position: center; 
+  position: middle; 
+  align-items: middle; 
+  width: 300px; 
+}
+
+.portfolio-section {
+  align: middle; 
 }
 
 /* unvisited link */
 a:link {
-  color: white;
+  color: rgb(49, 49, 53);
 }
 
 /* visited link */
